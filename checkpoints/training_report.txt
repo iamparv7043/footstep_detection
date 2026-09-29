@@ -1,0 +1,17 @@
+============================================================
+TRAINING REPORT
+============================================================
+1. Epochs trained: 18 / 40 max (best model from epoch 10)
+2. Device / GPU: NVIDIA GeForce RTX 4050 Laptop GPU (CUDA 12.6)
+3. Total parameters: 430,210
+   Parameter breakdown by layer type: {'Conv2d': 387840, 'BatchNorm2d': 960, 'Linear': 41410}
+4. Loss function: CrossEntropyLoss (class-weighted: [1.4620535373687744, 0.7598608136177063])
+5. Dropout rate: 0.4
+6. Batch size: 32
+7. Average inference time: 0.198 ms/sample
+8. Optimizer: AdamW (lr=0.001)
+9. Final test metrics: acc=0.9118 precision=0.8834 recall=0.9935 f1=0.9352
+10. Best validation F1: 0.9518
+
+Plots saved to: checkpoints/loss_curve.png, checkpoints/accuracy_curve.png
+============================================================

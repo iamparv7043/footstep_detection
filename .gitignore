@@ -16,7 +16,6 @@ dataset/**/*.wav
 # Trained models / checkpoints
 checkpoints/*.pt
 checkpoints/*.pth
-checkpoints/*.onnx
 
 # Python / ML cache
 .cache/
@@ -32,6 +31,7 @@ checkpoints/*.onnx
 # OS
 .DS_Store
 Thumbs.db
+*Zone.Identifier*
 
 # Logs
 *.log
