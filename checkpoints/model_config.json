@@ -1,0 +1,25 @@
+{
+  "sample_rate": 16000,
+  "duration_sec": 1.0,
+  "mel_params": {
+    "sample_rate": 16000,
+    "n_fft": 1024,
+    "hop_length": 320,
+    "win_length": 1024,
+    "n_mels": 64
+  },
+  "n_frames_expected": 51,
+  "use_aux_features": true,
+  "class_names": [
+    "no_footstep",
+    "footstep"
+  ],
+  "input_names": [
+    "log_mel_spectrogram",
+    "low_freq_ratio"
+  ],
+  "output_names": [
+    "logits"
+  ],
+  "note": "logits are raw scores for [no_footstep, footstep]; apply softmax on-device to get probabilities."
+}
